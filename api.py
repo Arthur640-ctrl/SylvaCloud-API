@@ -696,7 +696,7 @@ async def download_file(infos: dict = Body(...)):
 
         return JSONResponse(content=infos_to_send, status_code=200)
 
-    print(f"Valeur de disk: '{disk}'")  # Cela te permettra de voir si disk est vide ou incorrect
+    print(f"Valeur de disk: '{disk}'")
 
 
     with open("config.json") as f:
