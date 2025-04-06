@@ -1,0 +1,11 @@
+{
+    "disks": {
+        "disk1": {
+            "location": "G:",
+            "used": 45,
+            "free": 855,
+            "type": "NTFS",
+            "name": "disk1"
+        }
+    }
+}

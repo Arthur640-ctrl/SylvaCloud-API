@@ -1,0 +1,8 @@
+if __name__ == "__main__":
+    uvicorn.run(
+        "api:app",  # Remplace "api" par le nom de ton fichier si nécessaire
+        host="2a01:cb11:ecc:b300:9dd7:f038:2bc6:b17e",  # Écoute sur toutes les interfaces IPv4 et IPv6
+        port=8000,
+        ssl_keyfile="C:\\Users\\g_e_o\\key.pem",
+        ssl_certfile="C:\\Users\\g_e_o\\cert.pem",
+    )

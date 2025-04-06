@@ -1,0 +1,10 @@
+{
+    "codes": [
+        {
+            "code": "1",
+            "email": "test@test.com",
+            "plan": "pro",
+            "used": 0
+        }
+    ]
+}
